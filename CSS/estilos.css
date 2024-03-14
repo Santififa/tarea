@@ -1,0 +1,89 @@
+.padre
+{
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 50% 20% auto auto;
+    grid-template-rows: 250px 100px auto;
+    justify-content: center;
+}
+.hijo
+{
+    background-color: goldenrod;
+    border-style: solid;
+    border-color: dimgrey;
+    font-size: 50px;
+
+}
+.hijo1
+{
+    background-color: rgb(32, 100, 150);
+    border-style: solid;
+    border-color: dimgrey;
+    font-size: 50px;
+    grid-column: 1/5;
+}
+.hijo2
+{
+    background-color: rgb(100, 50, 10);
+    border-style: solid;
+    border-color: dimgrey;
+    font-size: 50px;
+    grid-column: 1/3;
+}
+.hijo3
+{
+    background-color: rgb(192, 10, 100);
+    border-style: solid;
+    border-color: dimgrey;
+    font-size: 50px;
+    grid-column: 3/4;
+}
+.hijo4
+{
+    background-color: rgb(192, 10, 100);
+    border-style: solid;
+    border-color: dimgrey;
+    font-size: 50px;
+    grid-column: 4/5;
+}
+.hijo5
+{
+    background-color: rgb(192, 10, 100);
+    border-style: solid;
+    border-color: dimgrey;
+    font-size: 50px;
+    grid-column: 1/2;
+}
+.hijo6
+{
+    background-color: rgb(119, 185, 128);
+    border-style: solid;
+    border-color: dimgrey;
+    font-size: 50px;
+    grid-column: 2/5;
+}
+.hijo7
+{
+    background-color: rgb(190, 227, 24);
+    border-style: solid;
+    border-color: dimgrey;
+    font-size: 50px;
+    grid-column: 1/3;
+    grid-row: 4/6;
+}
+.hijo8
+{
+    background-color: rgb(192, 10, 100);
+    border-style: solid;
+    border-color: dimgrey;
+    font-size: 50px;
+    grid-column: 3/5;
+}
+.hijo9
+{
+    background-color: rgb(192, 10, 100);
+    border-style: solid;
+    border-color: dimgrey;
+    font-size: 50px;
+    grid-column: 3/5;
+}
